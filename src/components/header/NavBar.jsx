@@ -8,7 +8,7 @@ export default function Navbar({ onSidebarOpen, isSidebarOpen }) {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   const handleSidebarToggle = () => {
-    onSidebarOpen(!isSidebarOpen); // Toggle the sidebar state
+    onSidebarOpen(!isSidebarOpen);
   };
 
   return (

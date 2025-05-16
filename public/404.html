@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=/NavAndSideBar/" />
+    <title>Page Not Found</title>
+    <script>
+      window.location.href =
+        '/NavAndSideBar' +
+        window.location.pathname.replace(/^\/NavAndSideBar/, '');
+    </script>
   </head>
-  <body></body>
+  <body>
+    <p>Redirecting to the application...</p>
+  </body>
 </html>
