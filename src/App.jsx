@@ -13,7 +13,7 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <Router>
+    <Router basename='/NavAndSideBar'>
       <Navbar
         onSidebarOpen={() => setIsSidebarOpen((prev) => !prev)} // Toggle function
         isSidebarOpen={isSidebarOpen}
