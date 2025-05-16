@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import TaskTwo from './components/pages/Task2';
 import TaskThree from './components/pages/Task3';
+import NotFound from './components/pages/NotFound';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/tasktwo' element={<TaskTwo />} />
           <Route path='/taskthree' element={<TaskThree />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
     </Router>
